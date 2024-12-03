@@ -7,6 +7,7 @@ import {FormControl, FormGroup, ReactiveFormsModule} from '@angular/forms';
 @Component({
   selector: 'app-details',
   imports: [CommonModule, ReactiveFormsModule],
+  standalone: true,
   template: `
     <article>
       <img
