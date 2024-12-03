@@ -4,6 +4,7 @@ import {RouterModule} from '@angular/router';
 @Component({
   selector: 'app-root',
   imports: [HomeComponent, RouterModule],
+  standalone: true,
   template: `
     <main>
       <a [routerLink]="['/']">
